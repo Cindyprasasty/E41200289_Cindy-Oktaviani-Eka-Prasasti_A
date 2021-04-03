@@ -9,19 +9,19 @@ package Tugas.Minggu4;
  *
  * @author HP
  */
-public class Tugas_Statement02 {
+public class Tugas_Statement04 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("          DO_While          ");
-        System.out.println("Bilangan kelipatan 2 (1-100)");
-        System.out.println("============================");
+        System.out.println("          Do_While         ");
+        System.out.println("===========================");
+        System.out.println("    Perkalian 2 (1-100)    ");
         
-        for(int a=2; a<=100; a+=2) {
-            System.out.print(a + " ");
+        for (int i=2; i<=100; i*=2) {
+            System.out.print(i + " ");
         }
     }
     
